@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Carpeta donde tienes los archivos Excel
-CARPETA_EXCEL = r"/home/wilson/Documentos/Proyectos/IsamelRoldan/Datos"
+CARPETA_EXCEL = r"Datos"
 
 def listar_archivos():
     archivos = [f for f in os.listdir(CARPETA_EXCEL) if f.endswith('.xlsx') or f.endswith('.xls')]
